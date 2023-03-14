@@ -1,15 +1,24 @@
-### security service
-- add ID to the user [[user_id]]
-- encrypt the password with secret key
-
-**Done**
-- verify jwt token through cookie
 
 ### api service
 - entites
-	- slotset
+	- [[internship2023/not the challenge/api service/Notes]]
 	- slot
 	- promotion
 	- events
 - data model
 - CRUD endpoints for every entity
+
+# Notes
+![[Pasted image 20230306104233.png]]
+Event has set[slotset]
+Slotset has set[Slot], eventId
+slot has promotionId, slotid
+promotion has slotId
+
+Using Futures in conversions ?
+change: eventIds -> eventId ...in the slotset table
+
+
+- [ ] updateEvent to Async
+- [ ] 
+
