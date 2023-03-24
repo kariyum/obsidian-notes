@@ -1,4 +1,9 @@
 [Brief Overview of Caching and Cache Invalidation | CodeAhoy](https://codeahoy.com/2022/04/03/cache-invalidation/)
+[Caching Overview - DEV Community](https://dev.to/kapiluthra/caching-overview-40hl)
+[Alexey Ragozin: Data Grid Pattern - Proactive caching](http://blog.ragozin.info/2011/10/grid-pattern-proactive-caching.html)
+[Database caching: Overview, types, strategies and their benefits. (prisma.io)](https://www.prisma.io/dataguide/managing-databases/introduction-database-caching) for rapport probs
+
+
 
 # Eviction policy
 Once the cache is full, any requests to add items to the cache might cause existing items to be removed.
@@ -6,7 +11,7 @@ Cache eviction policies: Least-Recently-Used, Least-Frequently-Used or FIFO.
 
 [Caching Strategies and How to Choose the Right One | CodeAhoy](https://codeahoy.com/2017/08/11/caching-strategies-and-how-to-choose-the-right-one/)
 
-# Cache-Aside
+# Cache-Aside - Lazy caching
 ![[Pasted image 20230227132637.png]]
 - General purpose, **read-heavy workloads** 
 - Systems using cache-aside are resilient to cache failures because they are independent; database, cache
@@ -48,3 +53,4 @@ In write-through the data written in cache is **synchronously** updated in the m
 ![[Pasted image 20230228105412.png]]
 Pros:
 Good for **write-heavy** workloads when combined with read-through cache, it works good for mixed workloads, where the recently updated and accessed data is always in cache.
+

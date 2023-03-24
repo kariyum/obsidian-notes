@@ -1,1 +1,6 @@
-{}
+{
+	"nodes":[
+		{"id":"ca9ee94f585060af","x":-200,"y":-100,"width":250,"height":60,"type":"text","text":"Cache"}
+	],
+	"edges":[]
+}
