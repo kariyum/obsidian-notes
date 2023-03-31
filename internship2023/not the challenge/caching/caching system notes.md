@@ -54,3 +54,17 @@ In write-through the data written in cache is **synchronously** updated in the m
 Pros:
 Good for **write-heavy** workloads when combined with read-through cache, it works good for mixed workloads, where the recently updated and accessed data is always in cache.
 
+[Brief Overview of Caching and Cache Invalidation | CodeAhoy](https://codeahoy.com/2022/04/03/cache-invalidation/)
+
+## When to Not Use a Cache
+
+Caches are **not** always the right choice. They may not add any value and in some cases, may actually degrade performance. Here are some questions you need to answer to determine if you need a cache or not.
+
+1.  The original source of data is slow (e.g. a query that does complex JOINs in a relational database.)
+2.  The data doesn’t need to change for each request (e.g. caching real-time sensor data that your car needs when it’s in the self-driving mode or live medical data from patients… not good ideas.)
+3.  The operation to fetch the data must not have any **side-effects** (e.g. a Relational DB Transaction that fetches data and updated KPI counters is not a good caching candidate due to side-effect of updating counters.)
+4.  The data is frequently accessed and needed more than once.
+5.  Good cache hit:miss ratio and total cost of cache misses. For example, suppose I put a cache for user requests as they come in and it takes **10 ms** to check if the data _exists_ in the cache or not, vs the original time of **60 ms**. If only **5%** of requests are cached, I’m **adding** an additional 10ms to 95% of the requests that result in a cache-miss. Doing rough calculations, we can see that cache is actually hurting performance:
+
+-   Before cache: `1,000,000 requests * 60 milliseconds per request = 60,000,000 milliseconds total`
+-   After cache: `(0.95 * 1,000,000 * 10) + (0.05 * 1,000,000 * (60 + 10) ) = 67,000,000 milliseconds total` Each cache miss results in 60+10 millisecond That’s poorer than using no cache, assuming all requests are equal in value/distribution.

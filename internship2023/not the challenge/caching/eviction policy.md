@@ -1,3 +1,4 @@
+# number of evictions could be used as an evaluation metric
 ## CPU eviction
 #### Page replacement Algorithms
 [Page Replacement Algorithms in Operating Systems - GeeksforGeeks](https://www.geeksforgeeks.org/page-replacement-algorithms-in-operating-systems/)
@@ -56,17 +57,13 @@ It is certainly not optimal but in some cases it yields good results.
 
 **Optimal** and **LRU** can never have belady's anomaly because they belong to a class of **stack-based algorithm**.
 
-```mermaid 
-graph TD 
+# Implementing OPR
+OPR methods needs to access future requests to tell which data to evict.
+once the cache is full :
+- we have the element **x** to add to cache we loop through the future requests and see what element is in the cache is requested the farthest
+	- assuming that **x** is in the cache will sometimes not add **x** in the cache
+	- else; assuming that **x** is not in the cache, this will always end up **x** in the cache
 
-EventService --> CacheService
-CacheService --> CacheDatabase
-EventService --> SecurityService
-EventService --> Cassandra
-SecurityService --> Cassandra
-CacheService --> Cassandra
-CacheService --> SecurityService
-Cassandra --> SecurityService
-Cassandra --> CacheService
-Cassandra --> EventService
-```
+
+
+

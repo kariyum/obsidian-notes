@@ -1,21 +1,14 @@
-
-### api service
-- entites
-	- [[internship2023/not the challenge/api service/Notes]]
-	- slot
-	- promotion
-	- events
-- data model
-- CRUD endpoints for every entity
-
 # Notes
-1. Prepare statements for all APIs for a faster response time (it skips the parsing phase) [DataStax Java Driver - Prepared statements](https://docs.datastax.com/en/developer/java-driver/3.0/manual/statements/prepared/)
-2. Make use of throwing **Exceptions**
-
+1. Redis is single threaded lol
+2. Starting with Cache-Aside and FIFO eviction strategy + LFU/LRU to compare
+3. Using keep-alive connection for a faster simulation
 
 # Questions
-2. Implement a **GET /all** route for each API ? same for DELETE /all
-3. Update routes are not for updating the links, meaning that you cannot link a promotion that was previously linked to slot1 to another slot2. They are for updaing the other columns; name, title...
-4. How will we generate data and requests [[Data & Requests generation]]
-5. Should we look at cache warmup
-6. 
+1. should we use UDP / TCP / WEBSOCKET between cache and server ?
+
+# What is done
+1. Implemented OPR, results are good
+
+# TO DO:
+1. some changes in the security service, in the cookie validation step, check note. ![[internship2023/not the challenge/security service/Notes#future updates]]
+2. event service: implement function that checks the cache just like validateCookie function, if the data is not in the cache the application procceeds to a normal behaviour. respondFromCache function 

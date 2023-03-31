@@ -6,3 +6,7 @@ using this instead
 add ID for the user
 encrypt the passord with secret key
 verify from cookie
+
+alright;
+# future updates
+now we are just verifying if the token is expired or not but in the real world case it's more logical and robust to hash the user_id + encrypted_password verify that is valid + expiration date
