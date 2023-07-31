@@ -1,0 +1,8 @@
+
+Organisations need to maintain high performance of its services not only at regular hours but also at peak hours and at high load. Users are very demanding and require a smooth experience at all times. Which pressures the organisations to rethink about performance and user experience of their services. 
+
+One of the levels that an organisation could improve is the data read time from the database. Reducing read times would result in a minimal response time to the user hence a smoother experience. Reading from a cache database is significantly faster than reading from a database server. But the cache database is very limited in terms of memory meaning that the organisation could not let go of the main database server and rely solely on the cache system. It is also limited in terms of data persistence since the data is stored in RAM resulting in losing all cached data on a cache system reboot.~~meaning that on a reboot data is no longer stored since RAM is volatile~~. ~~Using cache as the main database is limited by the charactisic of being volatile and available RAM.~~ 
+
+Therefore they should selectively choose which data to store in the cache and which data is left uncached. Here comes numerous caching strategies that the organisation could implement to help improuve caching effecieny. 
+
+Other than providing smoother experience for the end users, these methods can also improuve application running cost in terms of energy, resources and eventually money especially when the organisation is hosting their services on the cloud, less keys stored in the cache means less resources and less costs.

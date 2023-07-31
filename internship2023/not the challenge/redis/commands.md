@@ -10,3 +10,12 @@ KEYS *
 ```
 flushdb
 ```
+
+---
+
+#### vim save without quitting `:w`
+
+#### debug lua
+```bash
+redis-cli --eval hello.lua
+```

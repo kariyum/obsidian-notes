@@ -19,3 +19,19 @@ When implementing caching, it’s important to measure the performance of the ca
 - **Cache size:** The cache size is the amount of memory or storage allocated for the cache. The cache size can impact the hit rate and miss rate of the cache. A larger cache size can result in a higher hit rate, but it may also increase the cost and complexity of the caching solution.
 
 - **Cache latency:** The cache latency is the time it takes to access data from the cache. A lower cache latency indicates that the cache is faster and more effective in reducing latency and improving system performance. The cache latency can be impacted by the caching technology used, the cache size, and the cache replacement and invalidation policies.
+
+- ==**Hit rate**==
+- **Number of cassandra requests**
+- ==**Number of requests incoming total**==
+- **How many cassandra queries per second ? and in total ?**
+- **Average response time sampeled from last 100 requests**
+- **Cache response time sampeled from last max 100 requests**
+- **Cassandra response time sampeled from last max 100 requests**
+- Average read requests per second and in total
+- Average write requests per second and in total
+- Read reponse times; average of (cache response times + cassandra response times) ? Nooo
+- Write response times; average of 
+- ==lantency by percentile distribution==
+
+
+Actually how about making this whole thing as a library, we can market this as a generic solution that other application can integrate easily to test their cache performance ? Let's leave this as the next BIG step ?

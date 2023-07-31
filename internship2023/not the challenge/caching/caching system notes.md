@@ -50,7 +50,7 @@ Write-around can be combined with read-through to provide good performance in si
 # Write-Back / Write-Behind
 Writes data to the cache and acknowledges to the application immeldiately. Then later, the cashe writes the data back to the database.
 In write-through the data written in cache is **synchronously** updated in the main database. In write-back the data written in cache is **asynchronously** updated in the main database. From the application perspective, writes to Write-Back are faster because only the cache needed to be updated before returning to the application.
-![[Pasted image 20230228105412.png]]
+![[Pasted image 20230228105412.png]] 
 Pros:
 Good for **write-heavy** workloads when combined with read-through cache, it works good for mixed workloads, where the recently updated and accessed data is always in cache.
 

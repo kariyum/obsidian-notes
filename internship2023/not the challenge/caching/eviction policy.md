@@ -65,5 +65,3 @@ once the cache is full :
 	- else; assuming that **x** is not in the cache, this will always end up **x** in the cache
 
 
-
-

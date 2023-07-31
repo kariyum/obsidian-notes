@@ -15,3 +15,6 @@ What about failing a future in a for-comprehension
 
 # . Caching
 Amazon [What is Caching and How it Works | AWS (amazon.com)](https://aws.amazon.com/caching/#:~:text=How%20does%20Caching%20work%3F,the%20underlying%20slower%20storage%20layer.)
+
+
+![[Pasted image 20230530151550.png]]
