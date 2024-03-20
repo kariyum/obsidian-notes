@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "4904a98c50e95fc3",
+    "type": "split",
+    "children": [
+      {
+        "id": "d70ea019d2a774a8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "279e192123882288",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cours ENSI/Big Data/dynamodb.redis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5eec034f71b5549c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "svelte.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "25dce189038f3c1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "flutter/links.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a70c0d288514482a",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c9d68738a0b857f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d3debea1d692817",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3783a6f86f6975de",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7e80d2108ceff081",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "2efe0916483c9c5c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 281.5
+  },
+  "right": {
+    "id": "4f1f59a13623b813",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c7b59e48a93cd8f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "159ff03e9dba3231",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Cours ENSI/Big Data/dynamodb.redis.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6e6ed0c1226dc73e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Cours ENSI/Big Data/dynamodb.redis.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2a8beb2f130d0b7b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f62dc32f74c147cd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Cours ENSI/Big Data/dynamodb.redis.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "279e192123882288",
+  "lastOpenFiles": [
+    "Cours ENSI/Big Data/Séance 3.md",
+    "Cours ENSI/Big Data/TP PIG.md",
+    "Cours ENSI/Big Data/TP4.md",
+    "Cours ENSI/Big Data/TP-HBASE.md",
+    "Cours ENSI/Big Data/dynamodb.redis.md",
+    "Cours ENSI/Data mining/03 11 2022.md",
+    "Cours ENSI/Machine learning besrour/Evaluation de Connaissance 1.md",
+    "Cours ENSI/Machine learning besrour/Evaluation de Connaissance 2.md",
+    "Cours ENSI/Machine learning besrour/Exploratory Data Analysis.md",
+    "Cours ENSI/SI/Exercices.md",
+    "Cours ENSI/SMA/Projet.md",
+    "Cours ENSI/SMA/PEAS - JADE.md",
+    "Cours ENSI/SMA/Définitions.md",
+    "Cours ENSI/TALN/Karim-Ben-Amara-II3-IA.md",
+    "flutter/links.md",
+    "flutter/icon app.md",
+    "IA projects/drone pilot.md",
+    "IA projects/ACO.md",
+    "IA projects/Single machine schedular.md",
+    "Machine Learning/ML BOOK.md",
+    "Machine Learning/Links.md",
+    "Machine Learning/EDA.md",
+    "PFE/Notes.md",
+    "Rust/Links.md",
+    "Rust/Notes.md",
+    "Utilities/Font.md",
+    "Untitled.canvas",
+    "images/Pasted image 20230730182540.png",
+    "flutter"
+  ]
+}

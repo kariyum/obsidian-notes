@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "4904a98c50e95fc3",
+    "type": "split",
+    "children": [
+      {
+        "id": "ba7aa80240ec1b67",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "ghopstscript and img2pdf.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a70c0d288514482a",
+    "type": "split",
+    "children": [
+      {
+        "id": "7c9d68738a0b857f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d3debea1d692817",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3783a6f86f6975de",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7e80d2108ceff081",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4f1f59a13623b813",
+    "type": "split",
+    "children": [
+      {
+        "id": "0c7b59e48a93cd8f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "159ff03e9dba3231",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ghopstscript and img2pdf.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6e6ed0c1226dc73e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ghopstscript and img2pdf.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2a8beb2f130d0b7b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f62dc32f74c147cd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ghopstscript and img2pdf.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "ba7aa80240ec1b67",
+  "lastOpenFiles": [
+    "Cours ENSI/Machine learning besrour/Exploratory Data Analysis.md",
+    "Cours ENSI/Machine learning besrour/Séance 2.md",
+    "Cours ENSI/Big Data/TP4.md",
+    "Cours ENSI/Big Data/Séance 3.md",
+    "Reducer anagramme.md",
+    "ghopstscript and img2pdf.md",
+    "TP3-BENAMARA-BENSALEM.md",
+    "Deep learning.md",
+    "Kubernetes.md",
+    "images/Pasted image 20220902160923.png"
+  ]
+}
